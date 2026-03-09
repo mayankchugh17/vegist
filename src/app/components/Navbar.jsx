@@ -12,8 +12,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const toggleMenu = () => {setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -50,7 +49,7 @@ export default function Navbar() {
           </li>
           <li className="hover:text-orange-400 transition duration-400">
             <Link href="/contact">Buy vegist</Link>
-            <span className="w-12 h-6 bg-orange-700 text-white rounded-md flex items-center justify-center text-sm font-bold absolute top-6 right-190">
+            <span className="w-12 h-6 bg-[#CD7752] text-white rounded-md flex items-center justify-center text-sm font-bold absolute top-6 right-190">
               HOT
             </span>
           </li>
@@ -74,24 +73,24 @@ export default function Navbar() {
         </li>
         <li className="hover:text-orange-400 transition duration-400">
           <Link href="/contact">Buy vegist</Link>
-          <span className="w-12 h-6 bg-orange-700 text-white rounded-md flex items-center justify-center text-sm font-bold absolute top-6 right-190">
+          <span className="w-12 h-6 bg-[#CD7752] text-white rounded-md flex items-center justify-center text-sm font-bold absolute top-6 right-190">
             HOT
           </span>
         </li>
       </ul>
 
       <div className="flex justify-center items-center space-x-7 text-gray-700">
-        <SearchIcon className="cursor-pointer" sx={{ fontSize: 40 }} />
+        <SearchIcon className="cursor-pointer" sx={{ fontSize: 40, fontWeight: 'bold' }} />
         <PermIdentityIcon className="cursor-pointer" sx={{ fontSize: 40 }} />
         <FavoriteBorderIcon className="cursor-pointer" sx={{ fontSize: 40 }} />
-        <span className="w-6 h-6 bg-orange-700 text-white rounded-full flex items-center justify-center text-sm font-bold absolute top-9 right-21">
+        <span className="w-6 h-6 bg-[#CD7752] text-white rounded-full flex items-center justify-center text-sm font-bold absolute top-9 right-21">
           0
         </span>
         <ShoppingBagOutlinedIcon
           className="cursor-pointer"
           sx={{ fontSize: 40 }}
         />
-        <span className="w-6 h-6 bg-orange-700 text-white rounded-full flex items-center justify-center text-sm font-bold absolute top-9 right-12">
+        <span className="w-6 h-6 bg-[#CD7752] text-white rounded-full flex items-center justify-center text-sm font-bold absolute top-9 right-12">
           0
         </span>
       </div>
