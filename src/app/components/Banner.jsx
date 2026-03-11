@@ -10,14 +10,37 @@ export default function Banner() {
         height={200}
         className="px-3 md:px-0 w-full h-full md:w-1/4 object-cover"
       />
-       <Image
+      {/* <Image
           src="/banner/2.webp"
           alt="Banner Image"
           width={600}
           height={200}
           className="px-3 md:px-0 w-full h-full md:w-1/4 object-cover"
+        /> */}
+
+      {/* Background Image */}
+      <div className="relative">
+        <Image
+          src="/banner/2.webp"
+          alt="food"
+          width={600}
+          height={200}
+          className="object-cover"
         />
-{/* 
+
+        {/* Text Content */}
+        <div className="absolute gap-5 inset-0 flex flex-col items-center justify-center text-center px-10 md:px-30 leading-loose">
+          <p className="text-[#CD7752] font-semibold tracking-widest font-bold">
+            BREAKFAST TIME
+          </p>
+
+          <h2 className="text-3xl md:text-4xl text-gray-700 flex flex-col justify-center items-center gap-3">
+            <span className="font-bold ">We deliver</span>
+            <span>Italian food your door</span>
+          </h2>
+        </div>
+      </div>
+      {/* 
       <div className="relative ">
         <div className="flex flex-col justify-center text-center items-center">
           <h2 className="text-[#CD7752] text-xl font-semibold ">

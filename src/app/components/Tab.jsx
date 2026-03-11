@@ -50,7 +50,7 @@ function Tab({ heading }) {
       >
         {CardsData.map((card, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white cursor-pointer rounded-xl p-5 flex flex-col  gap-4 transition">
+            <div className="bg-white cursor-pointer rounded-xl p-5 flex flex-col  gap-3 transition">
               <Image
                 src={card.image}
                 alt={card.heading}
@@ -86,7 +86,7 @@ function Tab({ heading }) {
       >
         {CardsData2.map((card, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-white cursor-pointer rounded-xl p-5 flex flex-col  gap-4 transition">
+            <div className="mt-3 md:mt-10 bg-white cursor-pointer rounded-xl p-5 flex flex-col  gap-3 transition">
               <Image
                 src={card.image}
                 alt={card.heading}
