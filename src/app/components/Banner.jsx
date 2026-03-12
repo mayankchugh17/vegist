@@ -27,7 +27,7 @@ export default function Banner() {
             BREAKFAST TIME
           </p>
 
-          <h2 className="text-3xl md:text-4xl text-gray-700 flex flex-col justify-center items-center gap-3">
+          <h2 className="text-3xl md:text-4xl text-gray-700 flex flex-col justify-center items-center gap-3 ">
             <span className="font-bold ">We deliver</span>
             <span>Italian food your door</span>
           </h2>
