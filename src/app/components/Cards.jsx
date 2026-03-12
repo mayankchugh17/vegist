@@ -1,7 +1,7 @@
 import Image from "next/image";
 function Cards() {  
     return (
-        <div className="absolute w-full mt-10 md:top-255 z-50 flex flex-col md:flex-row justify-center items-center gap-6 mx-auto">
+        <div className="absolute w-full mt-10 md:top-245 z-50 flex flex-col md:flex-row justify-center items-center gap-6 mx-auto">
             <div className="bg-white p-8  flex text-center flex-col justify-center shadow-xl items-center rounded-lg px-15 md:px-30 gap-4">
                 <Image src="/cards/1.webp" alt="Card 1" width={90} height={200} className="rounded-sm" />
                 <h2 className="text-md md:text-2xl font-semibold ">Live wine function</h2>
