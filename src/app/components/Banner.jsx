@@ -19,7 +19,7 @@ export default function Banner() {
         /> */}
 
       {/* Background Image */}
-      <div className="relative">
+      <div className="relative px-3 md:px-0 w-full h-full md:w-1/4">
         <Image
           src="/banner/2.webp"
           alt="food"
