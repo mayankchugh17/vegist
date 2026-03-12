@@ -10,7 +10,7 @@ import "swiper/css";
 
 export default function StoriesSlider() {
   return (
-    <section className="w-full py-20 px-4 md:px-12 bg-gray-100">
+    <section className="w-full py-20 px-4 md:px-12">
       {/* Heading */}
       <div className="flex flex-col items-center gap-4 mb-10 md:mb-20 text-center">
         <h1 className="tracking-widest text-[#CD7752] text-lg md:text-2xl">
@@ -65,6 +65,7 @@ export default function StoriesSlider() {
           </SwiperSlide>
         ))}
       </Swiper>
+      <hr className="w-full text-gray-500 mt-10 md:mt-20" />  
     </section>
   );
 }
