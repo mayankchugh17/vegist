@@ -13,7 +13,7 @@ function Tab({ heading }) {
       </h1>
       <div className="my-10">
 
-        <ul className="flex flex-col md:flex-row text-lg justify-center gap-5 mt-10">
+        <ul className="flex md:flex-row text-lg justify-center gap-5 mt-10 overflow-x-auto"> 
         <div className="flex justify-center items-center gap-3">
           <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
             STARTERS
