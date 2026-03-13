@@ -1,6 +1,6 @@
 function Subscribe() {
   return (
-    <div className="flex flex-col bg-white py-8 px-10 md:px-20 lg:px-40 items-center text-center gap-6 md:gap-10">
+    <div className="flex flex-col bg-white py-8 pb-15 md:pb-40 px-10 md:px-20 lg:px-40 items-center text-center gap-6 md:gap-10">
       <div className="flex flex-col gap-3">
         <h1 className="tracking-widest text-[#CD7752] text-lg md:text-2xl">
           RECENT NEWS
