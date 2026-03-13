@@ -5,10 +5,12 @@ import Tab from "../components/Tab";
 import Banner from "../components/Banner";
 import Stories from "../components/Stories";
 import Subscribe from "../components/Subscribe";
+import SubscribePopup from "../components/SubscribePopUp";
 
 export default function WebApp() {
   return (
     <div> 
+      <SubscribePopup />
       <Hero />
       <Cards />
       <Dishes />

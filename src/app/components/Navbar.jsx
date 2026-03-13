@@ -12,7 +12,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="w-full flex items-center justify-between p-4 bg-white gap-8">
-      <div className="flex items-center justify-center gap-8">
+      <div className="flex items-center justify-center gap-8 md:ml-10">
         <Image src="/logo.svg" alt="Vegist Logo" width={180} height={40} />
 
        
