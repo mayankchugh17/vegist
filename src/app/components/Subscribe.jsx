@@ -14,14 +14,14 @@ function Subscribe() {
             type="email"
             placeholder="Enter your email address"
             required
-            className="flex-1 px-4 px-2 md:px-10 py-3 py-4 md:py-6 
+            className="flex-1 px-4 md:px-10 py-4 py-4 md:py-6 
       text-sm sm:text-base md:text-xl 
       bg-transparent outline-none text-gray-700 placeholder-gray-500"
           />
 
           <button
             type="submit"
-            className="px-4 px-2 md:px-10 py-3 sm:py-4 md:py-6 
+            className="px-4 md:px-10 py-4 sm:py-4 md:py-6 
       text-sm sm:text-base md:text-lg 
       bg-[#CD7752] text-white font-semibold 
       hover:bg-[#b86546] transition"
