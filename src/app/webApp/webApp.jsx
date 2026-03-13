@@ -5,7 +5,6 @@ import Tab from "../components/Tab";
 import Banner from "../components/Banner";
 import Stories from "../components/Stories";
 import Subscribe from "../components/Subscribe";
-import Footer from "../components/Footer";
 
 export default function WebApp() {
   return (
@@ -17,7 +16,6 @@ export default function WebApp() {
       <Banner />
       <Stories />
       <Subscribe />
-      <Footer />
     </div>
   );
 }
