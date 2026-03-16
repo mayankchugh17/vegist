@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import CallIcon from "@mui/icons-material/Call";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { useState } from "react";
@@ -49,7 +50,8 @@ function Footer() {
             >
               <h1 className="text-lg md:text-2xl font-bold ">Services</h1>
               <span className="md:hidden">
-                <KeyboardArrowDownIcon />
+                {services ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
+                
               </span>
             </div>
 
@@ -77,7 +79,8 @@ function Footer() {
             >
               <h1 className="text-lg md:text-2xl font-bold ">Privacy & Terms</h1>
               <span className="md:hidden">
-                <KeyboardArrowDownIcon />
+                { privacy ? <KeyboardArrowUpIcon />  : <KeyboardArrowDownIcon />}
+                
               </span>
             </div>
 
@@ -111,7 +114,7 @@ function Footer() {
             >
               <h1 className="text-lg md:text-2xl font-bold ">My Account</h1>
               <span className="md:hidden">
-                <KeyboardArrowDownIcon />
+                { account ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon /> }
               </span>
             </div>
 
