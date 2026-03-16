@@ -18,10 +18,10 @@ function Navbar() {
           <Image src="/logo.svg" alt="Vegist Logo" width={180} height={40} />
 
           {/* Hamburger */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <MenuIcon
               className="text-gray-600 cursor-pointer"
-              sx={{ fontSize: 38 }}
+              sx={{fontSize:{sm:20, md:38}}}
               onClick={() => setIsOpen(!isOpen)}
             />
           </div>
@@ -32,7 +32,7 @@ function Navbar() {
               <div className="flex justify-end p-6">
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="text-3xl text-gray-700"
+                  className="text-xl text-gray-700"
                 >
                   X
                 </button>
@@ -125,19 +125,19 @@ function Navbar() {
         <div className="icons flex items-center space-x-4 md:space-x-8">
           <SearchIcon
             className="text-gray-600 cursor-pointer"
-            sx={{ fontSize: 38 }}
+            sx={{fontSize:{sm:20, md:38}}}
           />
           <PersonOutlineIcon
             className="text-gray-600 cursor-pointer"
-            sx={{ fontSize: 38 }}
+            sx={{fontSize:{sm:20, md:38}}}
           />
           <FavoriteBorderIcon
             className="text-gray-600 cursor-pointer"
-            sx={{ fontSize: 38 }}
+            sx={{fontSize:{sm:20, md:38}}}
           />
           <WorkOutlineIcon
             className="text-gray-600 cursor-pointer"
-            sx={{ fontSize: 38 }}
+            sx={{fontSize:{sm:20, md:38}}}
           />
         </div>
       </nav>
