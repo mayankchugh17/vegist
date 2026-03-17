@@ -33,7 +33,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative w-full h-screen bg-cover bg-center bg-no-repeat transition-all duration-700 flex items-center"
+      className="animate__animated animate__flash relative w-full h-screen bg-cover bg-center bg-no-repeat transition-all duration-700 flex items-center"
       style={{
         backgroundImage: `url(${slides[currentSlide].image})`,
       }}
