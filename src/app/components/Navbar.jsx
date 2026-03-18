@@ -12,7 +12,7 @@ import { motion } from "motion/react";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <motion.div className="" initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+    <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
       <nav className="w-full flex items-center justify-between p-4 bg-white gap-8">
         <div className="flex items-center justify-center gap-8 md:ml-10">
           <Image src="/logo.svg" alt="Vegist Logo" width={180} height={40} />

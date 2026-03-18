@@ -47,7 +47,7 @@ function Dishes() {
   ];
 
   return (
-    <div className="mt-250 md:mt-50 bg-white py-16 w-full">
+    <div className="mt-5 md:mt-10 bg-white py-16 w-full">
       <div className="mx-auto md:mx-40 flex flex-col md:flex-row gap-2">
         {visibleSlides.map((slide, index) => (
           <div
