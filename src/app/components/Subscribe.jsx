@@ -14,7 +14,7 @@ function Subscribe() {
             type="email"
             placeholder="Enter your email address"
             required
-            className="flex-1 px-4 md:px-10 py-4 py-4 md:py-6 
+            className="flex-1 px-4 md:px-10 py-4 md:py-6 
       text-sm sm:text-base md:text-xl 
       bg-transparent outline-none text-gray-700 placeholder-gray-500"
           />

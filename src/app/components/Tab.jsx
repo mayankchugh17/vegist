@@ -1,5 +1,5 @@
 "use client";
-import {CardsData, CardsData2} from "../utils/tabsData";
+import { CardsData, CardsData2 } from "../utils/tabsData";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "./Tab.css";
@@ -13,28 +13,27 @@ function Tab({ heading }) {
         {heading}
       </h1>
       <div className="my-10">
+        <ul className="flex md:flex-row text-lg justify-center gap-5 mt-10 overflow-x-auto">
+          <div className="flex justify-center items-center gap-3">
+            <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
+              STARTERS
+            </li>
+            <span className="w-0.5 h-6 bg-gray-500"></span>
+            <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
+              BREAKFAST
+            </li>
+          </div>
 
-        <ul className="flex md:flex-row text-lg justify-center gap-5 mt-10 overflow-x-auto"> 
-        <div className="flex justify-center items-center gap-3">
-          <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
-            STARTERS
-          </li>
-          <span className="w-0.5 h-6 bg-gray-500"></span>
-          <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
-            BREAKFAST
-          </li>
-        </div>
-        
-        <div className="flex justify-center items-center gap-3">
-          <span className="w-0.5 h-6 bg-gray-500"></span>
-          <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
-            DINNER
-          </li>
-          <span className="w-0.5 h-6 bg-gray-500"></span>
-          <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
-            LUNCH
-          </li>
-        </div>
+          <div className="flex justify-center items-center gap-3">
+            <span className="w-0.5 h-6 bg-gray-500"></span>
+            <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
+              DINNER
+            </li>
+            <span className="w-0.5 h-6 bg-gray-500"></span>
+            <li className="text-gray-500 font-semibold hover:underline underline-offset-5 hover:text-[#CD7752] tracking-widest">
+              LUNCH
+            </li>
+          </div>
         </ul>
       </div>
 
@@ -60,14 +59,16 @@ function Tab({ heading }) {
                 className="object-contain"
               />
 
-              <h3 className="text-md md:text-2xl font-semibold hover:text-[#CD7752] transition duration-300 ">{card.heading}</h3>
+              <h3 className="text-md md:text-2xl font-semibold hover:text-[#CD7752] transition duration-300 ">
+                {card.heading}
+              </h3>
               <p className="text-md md:text-xl font-bold">{card.price}</p>
               <div className="flex items-center">
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
               </div>
             </div>
           </SwiperSlide>
@@ -96,21 +97,21 @@ function Tab({ heading }) {
                 className="object-contain"
               />
 
-              <h3 className="text-md md:text-2xl font-semibold hover:text-[#CD7752] transition duration-300 ">{card.heading}</h3>
+              <h3 className="text-md md:text-2xl font-semibold hover:text-[#CD7752] transition duration-300 ">
+                {card.heading}
+              </h3>
               <p className="text-md md:text-xl font-bold">{card.price}</p>
               <div className="flex items-center ">
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
-                <StarBorderIcon sx={{fontSize:32}} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
+                <StarBorderIcon sx={{ fontSize: { sm: 20, md: 35 } }} />
               </div>
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
-
-
     </div>
   );
 }

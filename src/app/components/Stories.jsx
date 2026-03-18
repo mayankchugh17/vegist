@@ -17,7 +17,7 @@ export default function StoriesSlider() {
           RECENT NEWS
         </h1>
 
-        <h2 className="text-2xl md:text-5xl font-bold">Love food stories</h2>
+        <h2 className="text-3xl md:text-5xl font-bold">Love food stories</h2>
       </div>
 
       <Swiper

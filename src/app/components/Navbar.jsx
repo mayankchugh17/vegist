@@ -13,15 +13,15 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <motion.div initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-      <nav className="w-full flex items-center justify-between p-4 bg-white gap-8">
+      <nav className="w-full flex items-center justify-between p-4 bg-white gap-10  ">
         <div className="flex items-center justify-center gap-8 md:ml-10">
-          <Image src="/logo.svg" alt="Vegist Logo" width={180} height={40} />
+          <Image src="/logo.svg" alt="Vegist Logo" width={170} height={40} />
 
           {/* Hamburger */}
           <div className="md:hidden ">
             <MenuIcon
               className="text-gray-600 cursor-pointer"
-              sx={{fontSize:{sm:20, md:38}}}
+              sx={{fontSize:{sm:25, md:38}}}
               onClick={() => setIsOpen(!isOpen)}
             />
           </div>
@@ -125,19 +125,19 @@ function Navbar() {
         <div className="icons flex items-center space-x-4 md:space-x-8">
           <SearchIcon
             className="text-gray-600 cursor-pointer"
-            sx={{fontSize:{sm:20, md:38}}}
+            sx={{fontSize:{sm:25, md:38}}}
           />
           <PersonOutlineIcon
             className="text-gray-600 cursor-pointer"
-            sx={{fontSize:{sm:20, md:38}}}
+            sx={{fontSize:{sm:25, md:38}}}
           />
           <FavoriteBorderIcon
             className="text-gray-600 cursor-pointer"
-            sx={{fontSize:{sm:20, md:38}}}
+            sx={{fontSize:{sm:25, md:38}}}
           />
           <WorkOutlineIcon
             className="text-gray-600 cursor-pointer"
-            sx={{fontSize:{sm:20, md:38}}}
+            sx={{fontSize:{sm:25, md:38}}}
           />
         </div>
       </nav>

@@ -59,7 +59,7 @@ function Dishes() {
                 {slide.category}
               </p>
 
-              <h2 className="text-2xl md:text-4xl text-black leading-tight">
+              <h2 className="text-xl md:text-4xl text-black leading-tight">
                 {slide.title} <br />
                 <span className="font-bold">{slide.string2}</span>
               </h2>
